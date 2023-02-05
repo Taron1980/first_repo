@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import App1 from './firstFolder/firstFile';
-// import "./App1"
+import User from './components/user';
 
 function App() {
   return (
-    // <h1>AAA</h1>
- <App1 />
+    <div style={{backgroundColor: 'red'}}>
+      <h1>AAA</h1>
+      <User/>
+    </div>
   )
-  
+
 }
 
 export default App
